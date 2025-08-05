@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+           list-style: none;
+           display: flex;
+        }
+        li::after {
+          content: " > ";
+          padding-right: 10px;
+          padding-left: 5px;
+        }
+        li:last-child::after {
+           content: "";
+        }
+        li:last-child {
+           color: rgb(128, 128, 128);
+           font-weight: bold;
+        }
+       
+        input::placeholder {
+           color:blue;
+        }
+        body{
+         display: flex;
+         background-size: 50%;
+         background-repeat: no-repeat;
+        }
+       
+     </style>
+ </head >
+ <body >
+     <input type="email" placeholder="Your email address">
+      <ul>
+         <li>Amazon</li>
+         <li>Home</li>
+         <li>Electronics</li>
+        <li>Mobiles</li>
+        <li>Apple</li>
+        <li>Apple 16 Series</li>
+     </ul>
+     <p >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptate accusantium odio optio voluptatibus cum suscipit, cumque rem est, omnis magni provident laudantium impedit at ducimus doloribus excepturi quo neque?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit saepe exercitationem, ipsa officiis illum eum, similique voluptate molestiae voluptates repudiandae asperiores quas architecto perferendis ipsam iure id voluptatibus cupiditate. Facere.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam temporibus mollitia animi autem doloribus et, perferendis similique maxime atque possimus voluptas aliquid consectetur necessitatibus quam veritatis laudantium architecto. Sapiente?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi magni numquam, distinctio quam voluptatem officia sequi amet dicta repudiandae alias rem quidem optio aut. Ut nesciunt molestiae quam iusto eos!
+     </p>
+     
+</body>
+</html>
+
+
+ 
+    

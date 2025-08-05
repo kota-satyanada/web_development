@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head> 
+<style>
+    @keyframes Blink{
+        0%{
+            opacity: 1;
+            font-size: 30px;
+        }
+        50%{
+            transform: rotate(360deg);
+        }
+        100%{
+            opacity: 1;
+            font-size: 50px;
+        }
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .title{
+        font-size: 100px;
+    }
+    .bi-triangle-fill{
+        color:green;
+        position: absolute;
+        top: 10px;
+        font-size: 40px;
+        animation: Blink;
+        animation-duration: 500ms;
+        animation-iteration-count: infinite;
+    }
+    .bi-circle-fill{
+        color:red;
+        position: absolute;
+        position: fixed;
+        left: 10px;
+        font-size: 40px;
+        animation: Blink;
+        animation-duration: 500ms;
+        animation-iteration-count: infinite;
+    }
+    .bi-star-fill{
+        color: green;
+        position: absolute;
+        bottom: 10px;
+        font-size: 40px;
+        animation:Rotate ;
+        animation-duration: 500ms;
+        animation-iteration-count: infinite;
+    }
+    .bi-square-fill{
+        color: red;
+        position: absolute;
+        right: 10px;
+        font-size: 40px;
+        animation: Blink;
+        animation-duration: 500ms;
+        animation-iteration-count: infinite;
+    }
+    .bi-diamond-fill{
+        position: relative;
+        right: 10px;
+        font-size: 40px;
+        animation: Blink;
+        animation-duration: 2s;
+        animation-iteration-count: 5;
+    }
+    .container{
+        position: relative;
+    }
+    .title{
+     color:blue;
+    }
+    body{
+        display: flex;
+        background-size: 100%;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+    </style>
+
+    <div class="container"></div>
+    <span class="title">shyni chelli </span>
+    <span class="brand-title"></span>
+    <span class="bi bi-triangle-fill"></span>
+    <span class="bi bi-circle-fill"></span>
+    <span class="bi bi-star-fill"></span>
+    <span class="bi bi-square-fill"></span>
+    <span class="bi bi-diamond-fill"></span>
+  <input type="radio"  value="peas">
+    
+
+</body>
+</html>

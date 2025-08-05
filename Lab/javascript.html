@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+       function bodyload(){
+        var head = document.getElementById("output");
+
+    var x = {
+      name :"satya",
+      age : 21,
+      grade : "A"
+    }  
+    head.innerHTML = `name : ${x.name} <br> age:${x.age} <br>grade: ${x.grade}`
+       }          
+  </script>
+</head>
+<body onload="bodyload()">
+  <h1 id="output"></h1>
+</body>
+</html>
